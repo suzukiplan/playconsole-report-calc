@@ -24,7 +24,11 @@ node calc レポートcsvのパス
 ```
 node calc ~/Downloads/PlayConsole_200001.csv
 {
-  'アプリID: 商品ID': { purchased: 売上数（払い戻し数を減算済み）, amount: 合計金額, countries: { JP: 日本の売上数, US: アメリカの売上数, GB: イギリスの売上数... } }
+  'アプリID: 商品iD': { purchased: 数量, amount: 金額, countries: { 国名: 数量 } }
 }
 ```
+
+- purchased: 売上数量（払い戻しを減算済み）
+- amount: 為替レート反映済みの売上金額 (Google手数料を減算済み)
+- countries: 各国の売上数量
 

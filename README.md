@@ -17,7 +17,9 @@ npm install
 
 ## Execute
 
+```
 node calc レポートcsvのパス
+```
 
 ## g.e.
 

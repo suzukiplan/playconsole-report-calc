@@ -15,7 +15,7 @@ cd playconsole-report-calc
 npm install
 ```
 
-## Execute
+### Execute
 
 ```
 node calc レポートcsvのパス
@@ -26,7 +26,7 @@ node calc レポートcsvのパス
 ```
 node calc ~/Downloads/PlayConsole_200001.csv
 {
-  'アプリID: 商品iD': { purchased: 数量, amount: 金額, countries: { 国名: 数量 } }
+  'アプリID: 商品ID': { purchased: 数量, amount: 金額, countries: { 国名: 数量 } }
 }
 ```
 

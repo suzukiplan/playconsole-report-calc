@@ -32,5 +32,5 @@ node calc ~/Downloads/PlayConsole_200001.csv
 
 - purchased: 売上数量（払い戻しを減算済み）
 - amount: 為替レート反映済みの売上金額 (Google手数料を減算済み)
-- countries: 各国の売上数量
+- countries: 各国の売上数量（払い戻しを減算済み）
 

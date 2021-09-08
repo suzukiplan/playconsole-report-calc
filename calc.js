@@ -27,9 +27,16 @@ csv().fromFile(path).then((records) => {
             }
             case "Google fee":
                 break;
-            case "Charge refund":
+            case "Charge refund": {
                 result[key].purchased--;
+                const cc = record["Buyer Country"];
+                if (!result[key].countries[cc]) {
+                    result[key].countries[cc] = -1;
+                } else {
+                    result[key].countries[cc]--;
+                }
                 break;
+            }
             case "Google fee refund":
                 break;
             default:
